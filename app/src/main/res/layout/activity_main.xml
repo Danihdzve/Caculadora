@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="227dp"
-        android:layout_height="72dp"
+        android:layout_width="242dp"
+        android:layout_height="106dp"
         android:layout_marginTop="88dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +25,16 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="96dp"
+        android:text="Hola como estas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
